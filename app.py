@@ -70,3 +70,4 @@ if st.button("Calcular", type="primary", use_container_width=True):
             label=f"Resultado da {operacao.split(' ')[0]}",
             value=f"{resultado:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
         )
+# Feito
